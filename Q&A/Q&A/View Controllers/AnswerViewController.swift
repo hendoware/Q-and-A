@@ -1,6 +1,6 @@
 import UIKit
     
-class AnswerViewController: UIViewController, QuestionControllerProtocol {
+class AnswerViewController: UIViewController {
     var questionController: QuestionController?
     var question: Question?
     

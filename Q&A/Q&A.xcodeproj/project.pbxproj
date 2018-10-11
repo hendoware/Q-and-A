@@ -17,7 +17,6 @@
 		7B0CCD89216E92CB0013D873 /* QuestionTableVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0CCD88216E92CB0013D873 /* QuestionTableVCCell.swift */; };
 		7B0CCD8B216E96DF0013D873 /* AskQuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0CCD8A216E96DF0013D873 /* AskQuestionVC.swift */; };
 		7B0CCD8D216E9ACB0013D873 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0CCD8C216E9ACB0013D873 /* AnswerViewController.swift */; };
-		7B0CCD8F216E9D5F0013D873 /* QuestionControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0CCD8E216E9D5F0013D873 /* QuestionControllerProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +32,6 @@
 		7B0CCD88216E92CB0013D873 /* QuestionTableVCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTableVCCell.swift; sourceTree = "<group>"; };
 		7B0CCD8A216E96DF0013D873 /* AskQuestionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskQuestionVC.swift; sourceTree = "<group>"; };
 		7B0CCD8C216E9ACB0013D873 /* AnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
-		7B0CCD8E216E9D5F0013D873 /* QuestionControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionControllerProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +66,6 @@
 			children = (
 				7B0CCD91216E9E0E0013D873 /* Model & Controller */,
 				7B0CCD92216E9E260013D873 /* View Controllers */,
-				7B0CCD90216E9E000013D873 /* Protocol */,
 				7B0CCD74216E88F90013D873 /* Main.storyboard */,
 				7B0CCD77216E88FA0013D873 /* Assets.xcassets */,
 				7B0CCD70216E88F90013D873 /* AppDelegate.swift */,
@@ -76,14 +73,6 @@
 				7B0CCD7C216E88FA0013D873 /* Info.plist */,
 			);
 			path = "Q&A";
-			sourceTree = "<group>";
-		};
-		7B0CCD90216E9E000013D873 /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-				7B0CCD8E216E9D5F0013D873 /* QuestionControllerProtocol.swift */,
-			);
-			path = Protocol;
 			sourceTree = "<group>";
 		};
 		7B0CCD91216E9E0E0013D873 /* Model & Controller */ = {
@@ -179,7 +168,6 @@
 			files = (
 				7B0CCD83216E8A1A0013D873 /* Question.swift in Sources */,
 				7B0CCD8D216E9ACB0013D873 /* AnswerViewController.swift in Sources */,
-				7B0CCD8F216E9D5F0013D873 /* QuestionControllerProtocol.swift in Sources */,
 				7B0CCD89216E92CB0013D873 /* QuestionTableVCCell.swift in Sources */,
 				7B0CCD8B216E96DF0013D873 /* AskQuestionVC.swift in Sources */,
 				7B0CCD87216E920A0013D873 /* QuestionTableVC.swift in Sources */,
